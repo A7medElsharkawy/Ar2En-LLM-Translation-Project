@@ -21,6 +21,18 @@ Here's an overview of the key files and directories:
 - **requirements.txt**: Lists all the dependencies required to run the model and the Streamlit app.
 - **fine-tuning-model.ipynb**: this is the fine-tuned notebook.
 
+
+
+├── app.py                       # Main streamlit application file
+└── fine-tuning-model.ipynb      # Development notebook
+├── Dockerfile                   # Docker setup file
+├── requirements.txt             # Python dependencies for the app
+├── README.md                    # Project README for usage and installation
+├── PROJECT-WORKFLOW.md          # Project-workflow README
+
+
+
+
 ## Dataset
 
 The model was fine-tuned on the [KDE4](https://huggingface.co/datasets/kde4) dataset, which includes 116,239 sentence pairs translating from Modern Standard Arabic to Egyptian Arabic.
