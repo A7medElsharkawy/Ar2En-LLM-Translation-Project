@@ -1,4 +1,4 @@
-# ar2en-Translation-Model
+# Ar2En-LLM-Translation-Project
 
 
 This project is a fine-tuned translation model designed to translate Arabic  to English lang. The model is based on a pre-trained model from Hugging Face and has been fine-tuned on the KDE4 dataset, which contains 116,239 translation sentence pairs.
