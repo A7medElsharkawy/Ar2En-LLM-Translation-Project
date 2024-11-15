@@ -22,14 +22,14 @@ Here's an overview of the key files and directories:
 - **fine-tuning-model.ipynb**: this is the fine-tuned notebook.
 
 
-
+```
 ├── app.py                       # Main streamlit application file
 └── fine-tuning-model.ipynb      # Development notebook
 ├── Dockerfile                   # Docker setup file
 ├── requirements.txt             # Python dependencies for the app
 ├── README.md                    # Project README for usage and installation
 ├── PROJECT-WORKFLOW.md          # Project-workflow README
-
+```
 
 
 
