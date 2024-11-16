@@ -23,7 +23,7 @@ Here's an overview of the key files and directories:
 
 
 ```
-├── app.py                       # Main streamlit application file
+├── app.py                       # Main streamlit 
 └── fine-tuning-model.ipynb      # Development notebook
 ├── Dockerfile                   # Docker setup file
 ├── requirements.txt             # Python dependencies for the app
@@ -43,14 +43,17 @@ The model was fine-tuned on the [KDE4](https://huggingface.co/datasets/kde4) dat
 
 Ensure you have Python and Docker installed.
 
-### Installation Steps
+## Installation Steps
+
+### *Using Docker* 🐋
+Running the application with Docker is simple and ensures an isolated environment. Ensure Docker is installed and running on your machine.
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/A7medElsharkawy/Ar2en-Translation-Model.git
+   git clone https://github.com/A7medElsharkawy/Ar2En-LLM-Translation-Project
 
-   cd Ar2en-Translation-Model
+   cd Ar2En-LLM-Translation-Project
 
 
 2. build and run docker file:
@@ -59,18 +62,44 @@ Ensure you have Python and Docker installed.
    docker build -it any-name .
 
    docker run -p 8501:8501 any-name
+   ```
+   go to  [http://localhost:8501](http://localhost:8501)
+   
+### *Running Locally* 💻
+Ensure you clone the Repo Locally
+<br>
+<br>
 
-   go to  http://localhost:8501/
+1. Create `Virtual Environment`:
+<br>
+   It is recommended to create and use a virtual environment to avoid package conflicts:
+   ```bash
+   # Create a virtual environment
+   python -m venv venv
+
+   # Activate the virtual environment
+   venv\Scripts\activate
+   ```
+2. Install the required Python packages listed in `requirements.txt`:
+   ```bash
+   pip install -r requirement.txt
+   ```
+
+3. run app Script: 
+   ```bash
+   streamlit run app.py
+   ```
+
+Open a web browser and go to:
+ [http://localhost:8501](http://localhost:8501)
+
+<br>
+<br>
+<br>
 
 
-3. (or) use app.py direct:
-    ```bash
-    streamlit run app.py  
-    ```  
+### Thank you ❤ for reaching this stage, Please don't forget⭐
 
 
 
 
-
-
-This README structure provides a clear description, setup instructions, and usage guidelines.
