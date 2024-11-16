@@ -1,8 +1,14 @@
-# ar2en-Translation-Model
+# Ar2En-LLM-Translation-Project
 
 
 This project is a fine-tuned translation model designed to translate Arabic  to English lang. The model is based on a pre-trained model from Hugging Face and has been fine-tuned on the KDE4 dataset, which contains 116,239 translation sentence pairs.
 
+<p align="center">
+  <a href="[https://your-video-link.com](https://your-video-link.com](https://github.com/A7medElsharkawy/Ar2En-LLM-Translation-Project/blob/main/model%20Test.mp4">Watch the demo video</a>
+</p>
+
+[![Installation and Usage Badge](https://img.shields.io/badge/Installation--Usage-README-red)](README.md)
+[![Project Workflow](https://img.shields.io/badge/PROJECT--WORKFLOW-README-blue)](PROJECT-WORKFLOW.md)
 
 ## Project Structure
 
@@ -14,6 +20,18 @@ Here's an overview of the key files and directories:
 - **model_test.mp4**: A video demonstrating the model in action.
 - **requirements.txt**: Lists all the dependencies required to run the model and the Streamlit app.
 - **fine-tuning-model.ipynb**: this is the fine-tuned notebook.
+
+
+```
+├── app.py                       # Main streamlit application file
+└── fine-tuning-model.ipynb      # Development notebook
+├── Dockerfile                   # Docker setup file
+├── requirements.txt             # Python dependencies for the app
+├── README.md                    # Project README for usage and installation
+├── PROJECT-WORKFLOW.md          # Project-workflow README
+```
+
+
 
 ## Dataset
 
