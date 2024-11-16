@@ -4,7 +4,7 @@
 This project is a fine-tuned translation model designed to translate Arabic  to English lang. The model is based on a pre-trained model from Hugging Face and has been fine-tuned on the KDE4 dataset, which contains 116,239 translation sentence pairs.
 
 <p align="center">
-  <a href="[https://your-video-link.com](https://your-video-link.com](https://github.com/A7medElsharkawy/Ar2En-LLM-Translation-Project/blob/main/model%20Test.mp4">Watch the demo video</a>
+  <a href="[https://your-video-link.com](https://your-video-link.com](https://github.com/A7medElsharkawy/Ar2En-LLM-Translation-Project/blob/main/model%20Test.mp4)">Watch the demo video</a>
 </p>
 
 [![Installation and Usage Badge](https://img.shields.io/badge/Installation--Usage-README-red)](README.md)
