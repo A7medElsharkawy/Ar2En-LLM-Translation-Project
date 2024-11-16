@@ -71,7 +71,7 @@ Ensure you clone the Repo Locally
 <br>
 
 1. Create `Virtual Environment`:
-<br>
+
    It is recommended to create and use a virtual environment to avoid package conflicts:
    ```bash
    # Create a virtual environment
@@ -80,14 +80,15 @@ Ensure you clone the Repo Locally
    # Activate the virtual environment
    venv\Scripts\activate
    ```
-2. Install the required Python packages listed in `requirements.txt`:
+   <br>
+2. Install the required Python packages listed in `requirements.txt`: 
    ```bash
    pip install -r requirement.txt
    ```
 
 3. run app Script: 
    ```bash
-   streamlit run app.py
+     streamlit run app.py
    ```
 
 Open a web browser and go to:
