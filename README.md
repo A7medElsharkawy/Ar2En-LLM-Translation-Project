@@ -5,7 +5,7 @@ This project is a fine-tuned translation model designed to translate Arabic  to 
 
 
 
-[![Installation and Usage Badge](https://img.shields.io/badge/Installation--Usage-README-red)](README.md)
+
 
 
 ## Project Structure
